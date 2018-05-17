@@ -1,0 +1,19 @@
+<TrainingMode>F</TrainingMode>
+<Invoice>
+    <InvNum>{$InvNum}</InvNum>
+    <BillTo>
+        <Name>{$Name}</Name>
+        <Address>
+            <Street>{$Street}</Street>
+            <City>{$City}</City>
+            <State>{$State}</State>
+            <Zip>{$Zip}</Zip>
+            <Country>{$Country}</Country>
+        </Address>
+        {if !empty($Email)}
+        <Email>{$Email}</Email>
+        {/if}
+        <Phone></Phone>
+    </BillTo>
+    <Description></Description>
+</Invoice>

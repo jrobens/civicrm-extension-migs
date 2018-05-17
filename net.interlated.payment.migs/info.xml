@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension key="net.interlated.payment.migs" type="payment">
+  <file>Migs</file>
+  <name>MIGS</name>
+  <description>MIGS Payment Processor</description>
+  <urls>
+    <url desc="Documentation">https://svn.interlated.com.au/net.interlated.payment.migs</url>
+  </urls>
+  <license>AGPL</license>
+  <maintainer>
+    <author>John Robens</author>
+    <email>jrobens@interlated.com.au</email>
+  </maintainer>
+  <releaseDate>2013-08-03</releaseDate>
+  <version>1.0</version>
+  <develStage>stable</develStage>
+  <compatibility><ver>4.3</ver></compatibility>
+  <comments></comments>
+  <civix>
+    <namespace>CRM</namespace>
+  </civix>
+  
+  <typeInfo>
+   <userNameLabel>Merchant ID</userNameLabel>
+   <passwordLabel>Access Code</passwordLabel>
+   <signatureLabel>Secure Hash</signatureLabel>
+   <subjectLabel></subjectLabel>
+   <urlSiteDefault>https://migs.mastercard.com.au/vpcdps</urlSiteDefault>
+   <urlApiDefault>https://migs.mastercard.com.au/vpcdps</urlApiDefault>
+   <urlRecurDefault></urlRecurDefault>
+   <urlSiteTestDefault>https://migs.mastercard.com.au/vpcdps</urlSiteTestDefault>
+   <urlApiTestDefault>https://migs.mastercard.com.au/vpcdps</urlApiTestDefault>
+   <urlRecurTestDefault></urlRecurTestDefault>
+   <urlButtonDefault></urlButtonDefault>
+   <urlButtonTestDefault></urlButtonTestDefault>
+   <billingMode>form</billingMode>
+   <isRecur>1</isRecur>
+   <paymentType>1</paymentType>
+  </typeInfo>
+  
+  <downloadUrl>https://svn.interlated.com.au/net.interlated.payment.migs</downloadUrl>
+</extension>
